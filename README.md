@@ -80,11 +80,4 @@ pip install numpy pandas matplotlib seaborn
 python pandas/titanic_eda.py
 ```
 
----
 
-## What's next
-
-- Week 3: Logistic regression from scratch using NumPy on this exact X and y
-- Week 4–5: Linear regression, decision trees, model evaluation (precision/recall/ROC-AUC)
-- Week 6–7: Random Forest, XGBoost, K-Means, NLP basics
-- July–Aug: Capstone — Review Insights Engine on Indian app store data (Swiggy/Zomato)
