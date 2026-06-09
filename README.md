@@ -3,9 +3,6 @@
 Exploratory data analysis on the Titanic dataset (Kaggle) to build and apply core data science fundamentals: NumPy, Pandas, Matplotlib, and Seaborn.
 
 This is Week 1–2 of a self-directed ML roadmap I'm working through before starting core ML (logistic regression, decision trees, ensembles) in Week 3.
-
----
-
 ## What this covers
 
 | Topic | Files | Concepts practiced |
@@ -31,10 +28,9 @@ Female passengers survived at 74.2% vs 18.9% for male passengers — a gap of ov
 **Passenger class was the second strongest predictor.**
 
 | Class | Survival rate |
-|---|---|
-| 1st | 63.0% |
-| 2nd | 47.3% |
-| 3rd | 24.2% |
+| 1st   | 63.0%         |
+| 2nd   | 47.3%         |
+| 3rd   | 24.2%         |
 
 First-class passengers were 2.6× more likely to survive than third-class passengers. Likely a combination of cabin location (closer to deck) and preferential lifeboat access.
 
@@ -44,7 +40,6 @@ Average age in 1st class (36.8) was notably higher than 3rd class (25.9), sugges
 **Fare varied significantly by embarkation port.**
 Passengers boarding at Cherbourg (C) paid an average fare of £59.95 vs £13.28 at Queenstown (Q) — likely because Cherbourg had more first-class passengers.
 
----
 
 ## Data cleaning decisions
 
@@ -53,7 +48,6 @@ Three columns had missing values:
 - **Embarked** (2 missing): filled with mode ('S') — only 2 rows, negligible impact.
 - **Cabin** (687 missing, 77% of data): dropped entirely — too sparse to impute meaningfully.
 
----
 
 ## Feature engineering (for ML prep)
 
@@ -70,7 +64,6 @@ Built a clean feature matrix `X` (891 × 7) and target vector `y` ready for Week
 
 ## How to run
 
-```bash
 git clone https://github.com/YOUR_USERNAME/titanic-eda
 cd titanic-eda
 pip install numpy pandas matplotlib seaborn
@@ -78,6 +71,4 @@ pip install numpy pandas matplotlib seaborn
 # Download train.csv from Kaggle and place it in the repo root
 # Then run any file:
 python pandas/titanic_eda.py
-```
-
 

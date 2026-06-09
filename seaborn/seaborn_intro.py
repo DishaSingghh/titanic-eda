@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+#different plots in seaborn
 df = pd.read_csv("train.csv")
 
 # Survival distribution
